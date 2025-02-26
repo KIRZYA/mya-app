@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TodoList from './TodoList.jsx';
 import TodoForm from './TodoForm.jsx';
+import Comments from './Comments';
 
 function App() {
     const [todos, setTodos] = useState([]);
@@ -27,6 +28,7 @@ function App() {
             <h1>Todo List</h1>
             <TodoForm onAdd={addTodo} />
             <TodoList todos={todos} onToggle={toggleTodo} onDelete={deleteTodo} />
+            <Comments />
         </div>
     );
 }
