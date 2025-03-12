@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './UserProfile.css';
 
 const UserProfile = ({ name, age, hobby }) => {
     return (
@@ -15,7 +16,7 @@ const UserProfile = ({ name, age, hobby }) => {
     );
 };
 
-// Типізація пропсів за допомогою PropTypes
+
 UserProfile.propTypes = {
     name: PropTypes.string.isRequired, // name обов'язковий
     age: PropTypes.number, // age необов'язковий

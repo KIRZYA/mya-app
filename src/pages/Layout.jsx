@@ -72,6 +72,9 @@ const Layout = () => {
                     <ListItem button component={Link} to="/Profile" onClick={handleDrawerClose}>
                         <ListItemText primary="Profile" />
                     </ListItem>
+                    <ListItem button component={Link} to="/Booklist" onClick={handleDrawerClose}>
+                        <ListItemText primary="Booklist" />
+                    </ListItem>
                 </List>
             </Drawer>
 

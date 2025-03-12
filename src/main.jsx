@@ -7,6 +7,7 @@ import Home from "./pages/Home.jsx";
 import Profile from "./pages/Profile.jsx";
 import Main from './pages/Main.jsx'
 import NoPage from './pages/NoPage.jsx'
+import Booklist from './pages/Booklist.jsx'
 
 
 
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
               <Route index element={<Home />} />
               <Route path="main" element={<Main />} />
               <Route path="profile" element={<Profile />} />
+              <Route path="Booklist" element={<Booklist />} />
               <Route path="*" element={<NoPage />} />
               </Route>
           </Routes>
