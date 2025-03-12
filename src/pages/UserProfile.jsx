@@ -21,5 +21,9 @@ UserProfile.propTypes = {
     age: PropTypes.number, // age необов'язковий
     hobby: PropTypes.string, // hobby необов'язковий
 };
+UserProfile.defaultProps = {
+    age: 18,
+    hobby: "none",
+}
 
 export default UserProfile;
